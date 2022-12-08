@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Type of Travel <= 0.5\ngini = 0.564\nsamples = 103903\nvalue = [46588, 7512, 49803]\nclass = Age"] ;
+1 [label="gini = 0.31\nsamples = 32055\nvalue = [26303, 3585, 2167]\nclass = Gender"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Flight Distance <= 1425.5\ngini = 0.478\nsamples = 71848\nvalue = [20285, 3927, 47636]\nclass = Age"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="Customer Type <= 0.5\ngini = 0.571\nsamples = 43137\nvalue = [18897, 3531, 20709]\nclass = Age"] ;
+2 -> 3 ;
+4 [label="gini = 0.512\nsamples = 17519\nvalue = [10329, 658, 6532]\nclass = Gender"] ;
+3 -> 4 ;
+5 [label="gini = 0.569\nsamples = 25618\nvalue = [8568, 2873, 14177]\nclass = Age"] ;
+3 -> 5 ;
+6 [label="gini = 0.118\nsamples = 28711\nvalue = [1388, 396, 26927]\nclass = Age"] ;
+2 -> 6 ;
+}

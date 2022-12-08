@@ -1,0 +1,13 @@
+a) Hva er datakildene som brukes i GE Aviation-eksemplet for flåteovervåkingsprosessen? Beskriv
+de tre V-ene til datakildene.
+
+
+ 
+b) Hva er forretningsproblemet maskinlæringsapplikasjonen adresserer? Hva slags oppgave(r) vil
+passe til problemet i caset (bruk de vanlige oppgavene i forelesningen “Data Analytics Techniques”
+som ramme for forretningsproblemene)? Er dette en styrt (supervised) eller ustyrt (unsupervised)
+metode?
+
+
+c) Hvis du er prosjektleder og ønsker å vite om maskinlæringsmodellen er god eller ikke, hvilke
+faktorer er nyttige for å vurdere modellen i dette tilfellet?

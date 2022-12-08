@@ -1,0 +1,13 @@
+digraph Tree {
+node [shape=box, fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="unif_cell_size <= 3.5\ngini = 0.455\nsamples = 478\nvalue = [311, 167]\nclass = Sex"] ;
+1 [label="bare_nuclei <= 3.5\ngini = 0.14\nsamples = 329\nvalue = [304, 25]\nclass = Sex"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.033\nsamples = 298\nvalue = [293, 5]\nclass = Sex"] ;
+1 -> 2 ;
+3 [label="gini = 0.458\nsamples = 31\nvalue = [11, 20]\nclass = Age"] ;
+1 -> 3 ;
+4 [label="gini = 0.09\nsamples = 149\nvalue = [7, 142]\nclass = Age"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
